@@ -21,6 +21,8 @@ SOURCES += \
     src/Animate.cpp \
     src/MainWidget.cpp \
     src/Timer.cpp \
+    src/backgrounditem.cpp \
+    src/dancyingscene.cpp \
     src/dancyingview.cpp \
     src/main.cpp
 
@@ -29,6 +31,8 @@ HEADERS += \
     src/Animate.h \
     src/MainWidget.h \
     src/Timer.h \
+    src/backgrounditem.h \
+    src/dancyingscene.h \
     src/dancyingview.h
 
 # Default rules for deployment.
