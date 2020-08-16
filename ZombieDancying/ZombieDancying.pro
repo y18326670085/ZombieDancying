@@ -21,13 +21,15 @@ SOURCES += \
     src/Animate.cpp \
     src/MainWidget.cpp \
     src/Timer.cpp \
+    src/dancyingview.cpp \
     src/main.cpp
 
 HEADERS += \
 #    mainwidget.h \  删除否则编译出错
     src/Animate.h \
     src/MainWidget.h \
-    src/Timer.h
+    src/Timer.h \
+    src/dancyingview.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
