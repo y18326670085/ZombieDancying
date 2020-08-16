@@ -1,0 +1,14 @@
+release/Animate.o
+release/BackgroundItem.o
+release/DancyingScene.o
+release/DancyingView.o
+release/MainWidget.o
+release/Timer.o
+release/Zombie.o
+release/main.o
+release/qrc_Res.o
+release/moc_BackgroundItem.o
+release/moc_DancyingScene.o
+release/moc_DancyingView.o
+release/moc_MainWidget.o
+release/moc_Zombie.o

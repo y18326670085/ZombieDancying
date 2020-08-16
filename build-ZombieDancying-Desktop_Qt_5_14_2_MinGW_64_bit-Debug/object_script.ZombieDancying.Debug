@@ -1,0 +1,14 @@
+debug/Animate.o
+debug/BackgroundItem.o
+debug/DancyingScene.o
+debug/DancyingView.o
+debug/MainWidget.o
+debug/Timer.o
+debug/Zombie.o
+debug/main.o
+debug/qrc_Res.o
+debug/moc_BackgroundItem.o
+debug/moc_DancyingScene.o
+debug/moc_DancyingView.o
+debug/moc_MainWidget.o
+debug/moc_Zombie.o

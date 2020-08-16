@@ -16,11 +16,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    main.cpp \
-    mainwidget.cpp
+#    main.cpp \
+#    mainwidget.cpp \
+    src/Animate.cpp \
+    src/MainWidget.cpp \
+    src/Timer.cpp \
+    src/main.cpp
 
 HEADERS += \
-    mainwidget.h
+#    mainwidget.h \  删除否则编译出错
+    src/Animate.h \
+    src/MainWidget.h \
+    src/Timer.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -29,3 +36,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Res.qrc
+
+DISTFILES += \
+    src/.DS_Store
