@@ -10,5 +10,7 @@ int main(int argc, char *argv[])
     //基本显示控件
     MainWidget w;
     w.show();
+
+    //a.exc 调用程序生成
     return a.exec();
 }
