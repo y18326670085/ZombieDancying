@@ -9,12 +9,15 @@ MainWidget::MainWidget(QWidget *parent)
     //newView->setStyle("background-color:red");
 
     //设置newView的位置
-    newView->setGeometry(100,100,300,200);
+    newView->setGeometry(0,0,900,600);
 
     QGraphicsScene *newScene = new QGraphicsScene();
     newView->setScene(newScene);
 
     QGraphicsPixmapItem *background = new QGraphicsPixmapItem();
+    QPixmap *backImg = new QPixmap(":/images/background1.jpg");
+    background->setPixmap(*backImg);
+
     newScene->addItem(background);
 }
 
