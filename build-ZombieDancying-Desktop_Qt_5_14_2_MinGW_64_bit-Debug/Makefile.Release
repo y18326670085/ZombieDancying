@@ -516,6 +516,7 @@ release/moc_backgrounditem.cpp: ../ZombieDancying/src/backgrounditem.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qimage.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpixelformat.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtransform.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QObject \
 		release/moc_predefs.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/moc.exe
 	C:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\moc.exe $(DEFINES) --include "D:/QT Project/ZombieDancying/build-ZombieDancying-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/release/moc_predefs.h" -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++ -I"D:/QT Project/ZombieDancying/ZombieDancying" -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE -IC:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore -I. -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -IC:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -IC:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include ..\ZombieDancying\src\backgrounditem.h -o release\moc_backgrounditem.cpp
@@ -1360,7 +1361,8 @@ release/MainWidget.o: ../ZombieDancying/src/MainWidget.cpp ../ZombieDancying/src
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsscene.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGraphicsPixmapItem \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsitem.h
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsitem.h \
+		../ZombieDancying/src/dancyingview.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\MainWidget.o ..\ZombieDancying\src\MainWidget.cpp
 
 release/Timer.o: ../ZombieDancying/src/Timer.cpp ../ZombieDancying/src/Timer.h \
@@ -1652,7 +1654,8 @@ release/backgrounditem.o: ../ZombieDancying/src/backgrounditem.cpp ../ZombieDanc
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qrgba64.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qimage.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpixelformat.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtransform.h
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtransform.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QObject
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\backgrounditem.o ..\ZombieDancying\src\backgrounditem.cpp
 
 release/dancyingscene.o: ../ZombieDancying/src/dancyingscene.cpp ../ZombieDancying/src/dancyingscene.h \
@@ -1767,7 +1770,11 @@ release/dancyingscene.o: ../ZombieDancying/src/dancyingscene.cpp ../ZombieDancyi
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtouchdevice.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsscene.h
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsscene.h \
+		../ZombieDancying/src/backgrounditem.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGraphicsPixmapItem \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsitem.h \
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QObject
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\dancyingscene.o ..\ZombieDancying\src\dancyingscene.cpp
 
 release/dancyingview.o: ../ZombieDancying/src/dancyingview.cpp ../ZombieDancying/src/dancyingview.h \
@@ -1882,7 +1889,8 @@ release/dancyingview.o: ../ZombieDancying/src/dancyingview.cpp ../ZombieDancying
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtouchdevice.h \
-		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsscene.h
+		C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsscene.h \
+		../ZombieDancying/src/dancyingscene.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\dancyingview.o ..\ZombieDancying\src\dancyingview.cpp
 
 release/main.o: ../ZombieDancying/src/main.cpp ../ZombieDancying/src/MainWidget.h \

@@ -3,6 +3,7 @@
 
 #include <QGraphicsView>
 
+class BackgroundItem;
 
 class DancyingScene : public QGraphicsScene
 {
@@ -10,6 +11,8 @@ class DancyingScene : public QGraphicsScene
 public:
     DancyingScene();
     ~DancyingScene();
+
+    BackgroundItem *bgitem;
 };
 
 #endif // DANCYINGSCENE_H
