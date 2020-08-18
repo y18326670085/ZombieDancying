@@ -5,7 +5,7 @@
 
 class Zombie;
 class BackgroundItem;
-
+class QMediaPlayer;
 
 class DancyingScene : public QGraphicsScene
 {
@@ -17,6 +17,9 @@ public:
     QList<Zombie *> zombies;
 
     BackgroundItem *bgitem;
+    QMediaPlayer *backplayer;
+
+    void playBackMusic();
 };
 
 #endif // DANCYINGSCENE_H
