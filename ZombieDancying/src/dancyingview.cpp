@@ -2,15 +2,15 @@
 #include "dancyingscene.h"
 
 DancyingView::DancyingView(QWidget *parent):QGraphicsView(parent),
-    width(1100),height(600),
+    width(900),height(600),
     dancyingScene(new DancyingScene())
 {
     //设置窗口最小值
     setMinimumSize(width, height);
 
     //不显示滚动条
-    setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    //setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    //setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
     setScene(dancyingScene);
 }
