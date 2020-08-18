@@ -5,8 +5,10 @@ release/backgrounditem.o
 release/dancyingscene.o
 release/dancyingview.o
 release/main.o
+release/zombie.o
 release/qrc_Res.o
 release/moc_MainWidget.o
 release/moc_backgrounditem.o
 release/moc_dancyingscene.o
 release/moc_dancyingview.o
+release/moc_zombie.o

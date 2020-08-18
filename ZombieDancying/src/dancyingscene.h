@@ -3,7 +3,9 @@
 
 #include <QGraphicsView>
 
+class Zombie;
 class BackgroundItem;
+
 
 class DancyingScene : public QGraphicsScene
 {
@@ -11,6 +13,8 @@ class DancyingScene : public QGraphicsScene
 public:
     DancyingScene();
     ~DancyingScene();
+
+    QList<Zombie *> zombies;
 
     BackgroundItem *bgitem;
 };

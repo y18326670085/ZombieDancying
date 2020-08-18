@@ -24,7 +24,8 @@ SOURCES += \
     src/backgrounditem.cpp \
     src/dancyingscene.cpp \
     src/dancyingview.cpp \
-    src/main.cpp
+    src/main.cpp \
+    src/zombie.cpp
 
 HEADERS += \
 #    mainwidget.h \  删除否则编译出错
@@ -33,7 +34,8 @@ HEADERS += \
     src/Timer.h \
     src/backgrounditem.h \
     src/dancyingscene.h \
-    src/dancyingview.h
+    src/dancyingview.h \
+    src/zombie.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

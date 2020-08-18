@@ -5,8 +5,10 @@ debug/backgrounditem.o
 debug/dancyingscene.o
 debug/dancyingview.o
 debug/main.o
+debug/zombie.o
 debug/qrc_Res.o
 debug/moc_MainWidget.o
 debug/moc_backgrounditem.o
 debug/moc_dancyingscene.o
 debug/moc_dancyingview.o
+debug/moc_zombie.o
