@@ -2,6 +2,7 @@
 #include "backgrounditem.h"
 #include <QMovie>
 #include "zombie.h"
+#include <QMediaPlayer>
 
 DancyingScene::DancyingScene():bgitem(new BackgroundItem())
 {
